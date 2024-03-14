@@ -1,7 +1,7 @@
 within MotorPackage.Motor.Template;
 model SimpleMotor
   extends Interface.Base;
-  Modelica.Electrical.Analog.Basic.Resistor resistor(R=0.5)
+  Modelica.Electrical.Analog.Basic.Resistor resistor(R=0.4)
     annotation (Placement(transformation(extent={{-30,20},{-10,40}})));
   Modelica.Electrical.Analog.Basic.Inductor inductor(L=0.05)
     annotation (Placement(transformation(extent={{10,20},{30,40}})));
